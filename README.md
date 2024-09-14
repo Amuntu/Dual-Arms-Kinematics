@@ -25,9 +25,9 @@ As mentioned on the official [page](http://wiki.ros.org/rosserial_arduino/Tutori
       ```
 #### 3) Run Project
    ##### A) Run ROS-Master:
-         ```bash
-         roscore
-         ```
+   ```bash
+   roscore
+   ```
    ##### B) Source the Package:
          ```bash
          source devel/setup.bash
