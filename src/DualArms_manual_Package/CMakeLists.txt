@@ -133,8 +133,8 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/DualArms_manual_Package_node.cpp)
- add_executable(control src/control.cpp)
- target_link_libraries(control ${catkin_LIBRARIES})
+ add_executable(control src/Control_IK_FK_J.cpp)
+ target_link_libraries(Control_IK_FK_J ${catkin_LIBRARIES})
  add_executable(camera src/camera.cpp)
  target_link_libraries(camera ${catkin_LIBRARIES})
  add_executable(serial src/serial.cpp)
