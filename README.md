@@ -50,7 +50,7 @@ As mentioned on the official [page](http://wiki.ros.org/rosserial_arduino/Tutori
         ```bash
         rosrun DualArms_manual_Package Control_IK_FK_J 1  R1q1  R1q2  R1q3  R1q4  R1q5  R2q1  R2q2  R2q3  R2q4
         ```
-      ###### 3. In case of running Jacobian-Kinematics:
+      ###### 3. In case of running Inverse-Jacobian:
         ```bash
         rosrun DualArms_manual_Package Control_IK_FK_J 2
         ```
