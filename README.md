@@ -17,7 +17,9 @@ As mentioned on the official [page](http://wiki.ros.org/rosserial_arduino/Tutori
       * `sudo apt-get install ros-<distro>-rosserial-arduino`
       * `sudo apt-get install ros-<distro>-rosserial`
   2. In case the method mentioned above doesn't work, the package can be built from source as follows.
-      * `cd Dual-Arms-Kinematics/src`
-      * `git clone https://github.com/ros-drivers/rosserial.git`
-      * `cd ..`
-      * `catkin_make`
+      ```bash
+      cd Dual-Arms-Kinematics/src
+      git clone https://github.com/ros-drivers/rosserial.git
+      cd ..
+      catkin_make
+      ```
