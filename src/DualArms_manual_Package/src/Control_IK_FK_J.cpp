@@ -228,7 +228,7 @@ int main(int argc, char** argv) {
   }
   /** these comming conditions to make shure that the user run the Node correctly **/
   if(mission==0 && argc!=5){
-    ROS_INFO("\n\nthe correct input for inverse is:\nrosrun  dual_arms  Control_IK_FK_J  0  Px  Py  Pz");
+    ROS_INFO("\n\nthe correct input for inverse is:\nrosrun  DualArms_manual_Package  Control_IK_FK_J  0  Px  Py  Pz");
     return 1;
   }
   else if(mission==0){
@@ -238,7 +238,7 @@ int main(int argc, char** argv) {
     ROS_INFO("\n\nyou entered Point:\nPx = %3.2f\nPy = %3.2f\nPz = %3.2f\n",px,py,pz);
   }
   if(mission==1 && argc!=11){
-    ROS_INFO("\n\nthe correct input for Forward is:\nrosrun  dual_arms  Control_IK_FK_J  1  R1q1  R1q2  R1q3  R1q4  R1q5  R2q1  R2q2  R2q3  R2q4\n\t\tall angles in degree.");
+    ROS_INFO("\n\nthe correct input for Forward is:\nrosrun  DualArms_manual_Package  Control_IK_FK_J  1  R1q1  R1q2  R1q3  R1q4  R1q5  R2q1  R2q2  R2q3  R2q4\n\t\tall angles in degree.");
     return 1;
   }
   else if(mission==1){
@@ -246,11 +246,11 @@ int main(int argc, char** argv) {
 atof(argv_global[8]),atof(argv_global[9]),atof(argv_global[10]));
   }  
   if (mission==2 && argc!=2){
-    ROS_INFO("\n\nthe correct input for Jacobian is:\nrosrun  dual_arms  Control_IK_FK_J  2");
+    ROS_INFO("\n\nthe correct input for Jacobian is:\nrosrun  DualArms_manual_Package  Control_IK_FK_J  2");
     return 1;
   }
   if (mission==3 && argc!=2){
-    ROS_INFO("\n\nthe correct input for Zero Pose is:\nrosrun  dual_arms  Control_IK_FK_J  3");
+    ROS_INFO("\n\nthe correct input for Zero Pose is:\nrosrun  DualArms_manual_Package  Control_IK_FK_J  3");
     return 1;
   }
 /**********************************/
