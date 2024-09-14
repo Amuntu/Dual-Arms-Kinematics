@@ -38,10 +38,10 @@ As mentioned on the official [page](http://wiki.ros.org/rosserial_arduino/Tutori
    ```
    ##### D) Run the mission you Desire:
    _you have only 4 Missions:_
-   * mission = 0 : that means do the IK.
-   * mission = 1 : that means do the FK.
-   * mission = 2 : that means do the IJ.\n
-   * mission = 3 : that means go to Zero.
+   * _mission = 0 : that means do the IK._
+   * _mission = 1 : that means do the FK._
+   * _mission = 2 : that means do the IJ._
+   * _mission = 3 : that means go to Zero._
       ###### 1. In case of running Inverse-Kinematics:
         ```bash
         rosrun DualArms_manual_Package Control_IK_FK_J 0  Px  Py  Pz
