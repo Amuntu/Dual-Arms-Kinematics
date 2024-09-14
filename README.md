@@ -1,5 +1,5 @@
 # Dual-Arms
 ## Dual arms in robotic club Tishreen university
-#### by Amin Fayez Haydar
+#### _by Amin Fayez Haydar_
 
-_install:_
+###### *install:*
