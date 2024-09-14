@@ -29,13 +29,13 @@ As mentioned on the official [page](http://wiki.ros.org/rosserial_arduino/Tutori
    roscore
    ```
    ##### B) Source the Package:
-         ```bash
-         source devel/setup.bash
-         ```
+   ```bash
+   source devel/setup.bash
+   ```
    ##### C) Open Serial port for Arduino connected to ypur PC:
-         ```bash
-         rosrun rosserial_python serial_node.py _port:=<device> _baud:=<baud rate>
-         ```
+   ```bash
+   rosrun rosserial_python serial_node.py _port:=<device> _baud:=<baud rate>
+   ```
    ##### D) Run the mission you Desire:
    _you have only 4 Missions:_
    * mission = 0 : that means do the IK.
@@ -43,18 +43,18 @@ As mentioned on the official [page](http://wiki.ros.org/rosserial_arduino/Tutori
    * mission = 2 : that means do the IJ.\n
    * mission = 3 : that means go to Zero.
       ###### 1. In case of running Inverse-Kinematics:
-              ```bash
-              rosrun DualArms_manual_Package Control_IK_FK_J 0  Px  Py  Pz
-              ```
+        ```bash
+        rosrun DualArms_manual_Package Control_IK_FK_J 0  Px  Py  Pz
+        ```
       ###### 2. In case of running Forward-Kinematics:
-             ```bash
-             rosrun DualArms_manual_Package Control_IK_FK_J 1  R1q1  R1q2  R1q3  R1q4  R1q5  R2q1  R2q2  R2q3  R2q4
-             ```
+        ```bash
+        rosrun DualArms_manual_Package Control_IK_FK_J 1  R1q1  R1q2  R1q3  R1q4  R1q5  R2q1  R2q2  R2q3  R2q4
+        ```
       ###### 3. In case of running Jacobian-Kinematics:
-             ```bash
-             rosrun DualArms_manual_Package Control_IK_FK_J 2
-             ```
+        ```bash
+        rosrun DualArms_manual_Package Control_IK_FK_J 2
+        ```
       ###### 4. In case of running Move to Zero-Pose:
-             ```bash
-             rosrun DualArms_manual_Package Control_IK_FK_J 3
-             ```
+        ```bash
+        rosrun DualArms_manual_Package Control_IK_FK_J 3
+        ```
