@@ -1,5 +1,11 @@
 # Dual-Arms
 ## Dual arms in robotic club Tishreen university
+<video src="https://github.com/user-attachments/assets/b6cdd0b2-50e3-4e63-865f-b506ddec79a4" controls="controls" muted="muted" style="max-width: 100%; height: auto;">
+</video>
+<video src="https://github.com/user-attachments/assets/b37a8dbc-d257-450d-806f-982c4d15692c" controls="controls" muted="muted" style="max-width: 100%; height: auto;">
+<video src="https://github.com/user-attachments/assets/4d4d612a-153a-4bc0-92ce-f4e682a228e2" controls="controls" muted="muted" style="max-width: 100%; height: auto;">
+
+</video>
 ## _by Amin Fayez Haydar_
 ### install:
 #### 1) Clone & Build the Project
